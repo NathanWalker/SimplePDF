@@ -27,7 +27,7 @@ public enum ContentAlignment {
     case left, center, right
 }
 
-open class SimplePDF {
+@objc open class SimplePDF: NSObject {
     
     /* States */
     fileprivate var commands: [SimplePDFCommand] = []
