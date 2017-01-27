@@ -40,6 +40,7 @@ public enum ContentAlignment {
         
         pageBounds = CGRect(origin: CGPoint.zero, size: pageSize)
         self.pageMargin = pageMargin
+        super.init()
     }
     
     
